@@ -1,0 +1,25 @@
+@import "reset/reset";
+@import "breakpoints/media-breakpoints";
+
+body{}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+
+}
+
+.main {
+  flex: 1 1 auto;
+
+
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
