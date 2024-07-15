@@ -9,15 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "js-cookie": "^3.0.5",
     "sass": "^1.72.0",
-    "vue-router": "^4.0.12",
-    "vue": "^3.4.29"
-
+    "vue": "^3.4.29",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@vitejs/plugin-vue": "^5.0.5",
-    "vite": "^5.3.1",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "vite": "^5.3.1"
   }
 }

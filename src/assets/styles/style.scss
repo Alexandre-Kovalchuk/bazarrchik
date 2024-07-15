@@ -1,7 +1,13 @@
 @import "reset/reset";
 @import "breakpoints/media-breakpoints";
+@import "variable/variable";
+@import "fonts/fonts";
 
-body{}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
 
 .wrapper {
   display: flex;
@@ -13,13 +19,11 @@ body{}
 
 .main {
   flex: 1 1 auto;
-
-
 }
 
 .container {
-  max-width: 1230px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 27px;
 }
